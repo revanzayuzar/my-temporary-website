@@ -1,0 +1,252 @@
+/* Revan | Van Project - Style */
+
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body {
+    /* background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%); */
+    background-color: rgb(25, 25, 100);
+    /* background-size: 200%; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* animation: gradient 15s infinite alternate; */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: goldenrod;
+    position: fixed;
+    border-bottom: 5px solid goldenrod;
+    padding: 12px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container .logo {
+    float: left;
+    width: 5%;
+}
+
+.container .logo img {
+    width: 100%;
+}
+
+.container .judul {
+    float: left;
+    width: 55%;
+    padding-top: 11px;
+}
+
+.container .judul h1 {
+    display: inline;
+    width: 25px;
+    color: goldenrod;
+    letter-spacing: 1.5px;
+    margin-left: 33px;
+}
+
+.container .judul h1:hover {
+    color: silver;
+    transition: 1.5s;
+}
+
+.container .navbar {
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.container .navbar li {
+    display: inline;
+    list-style: none;
+}
+
+.container .navbar a {
+    display: inline-block;
+    color: inherit;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-left: 25px;
+    padding: 7px;
+    border: 1px solid goldenrod;
+    border-radius: 7px;
+}
+
+.container .navbar a:hover {
+    color: silver;
+    border: 1px solid silver;
+    transition: 0.1s;
+}
+
+main {
+    clear: both;
+}
+
+.container .img-home img {
+    width: 100%;
+    margin-top: 50px;
+    border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
+}
+
+.container .img-profile img {
+    width: 100%;
+    margin-top: 75px;
+    border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
+}
+
+.container .img-education img {
+    width: 100%;
+    margin-top: 75px;
+    border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
+}
+
+.container .img-about img {
+    width: 100%;
+    margin-top: 75px;
+    border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
+}
+
+.container .my-project {
+    width: 100%;
+    margin-top: 75px;
+    border: 2.5px solid goldenrod;
+
+    background-image: linear-gradient(to right, rgb(255, 75, 75) 0%, rgb(75, 75, 255) 100%);
+    background-color: rgb(75, 75, 255);
+    background-size: 200%;
+    animation: gradient 15s infinite alternate;
+}
+
+.container .my-project h1 {
+    color: black;
+    font-size: 33px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+
+.container .project-01 a {
+    display: block;
+    width: 50%;
+    color: goldenrod;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 50px auto;
+    padding: 7px 0;
+    border: 2.5px solid goldenrod;
+    border-radius: 7px;
+}
+
+.container .project-01 a:hover {
+    color: silver;
+    background-color: rgb(25, 25, 25);
+    border: 2.5px solid silver;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: goldenrod;
+    border-top: 5px solid goldenrod;
+    margin-top: 25px;
+    padding: 15px 0;
+}
+
+.container .whatsapp a {
+    display: block;
+    width: 50%;
+    color: white;
+    background-image: url(../img/whatsapp.png);
+    background-size: 25px;
+    background-position: left;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+    background-color: green;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: auto;
+    padding: 7px 0;
+    border: 1px solid silver;
+    border-radius: 7px;
+}
+
+.container .whatsapp a:hover {
+    background-color: rgb(0, 100, 0);
+}
+
+.container .sosmed {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+.container .sosmed img {
+    width: 4%;
+    margin: 0 20px;
+    padding: 3px;
+    border: 2.5px solid goldenrod;
+    border-radius: 50%;
+}
+
+.container .sosmed img:hover {
+    border: 2.5px solid silver;
+}
+
+.container .designer {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 12px;
+}
+
+.container .copyright {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
